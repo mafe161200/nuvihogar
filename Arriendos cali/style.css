@@ -1,3 +1,6 @@
+/* ============================================================
+   RESET Y FUENTES BÁSICAS
+   ============================================================ */
 * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Poppins', sans-serif; }
 body { background-color: #f3f4f8; color: #333; line-height: 1.6; }
 .container { max-width: 1200px; margin: 0 auto; padding: 30px 20px; }
@@ -5,6 +8,7 @@ body { background-color: #f3f4f8; color: #333; line-height: 1.6; }
 .main-header h1 { color: #7b2cbf; font-size: 26px; font-weight: 700; }
 .status-indicator { font-size: 13px; color: #7f8c8d; }
 
+/* ================= BOTÓN FAVORITOS ================= */
 #btn-ver-favoritos {
     display: inline-flex; align-items: center; justify-content: center; gap: 8px;
     background: #ffffff; border: 1.5px solid #d8b4fe; padding: 9px 18px; border-radius: 20px;
@@ -26,9 +30,11 @@ body { background-color: #f3f4f8; color: #333; line-height: 1.6; }
 }
 #btn-ver-favoritos.activo .icono-btn-fav { stroke: #ffffff; fill: #ffffff; }
 
+/* ================= SECCIÓN DIVIDIDA ================= */
 .top-section { display: flex; gap: 25px; margin-bottom: 20px; }
 .filtros-wrapper, .mapa-wrapper { flex: 1; display: flex; flex-direction: column; }
 
+/* ================= FILTROS ================= */
 .filtros-container {
     background: #ffffff; padding: 20px; border-radius: 12px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.04); margin-bottom: 15px; display: grid;
@@ -53,6 +59,7 @@ body { background-color: #f3f4f8; color: #333; line-height: 1.6; }
 }
 #limpiar-filtros:hover { background: #f1f2f6; color: #4b6584; border-color: #a5b1c2; }
 
+/* ================= ESTADÍSTICAS ================= */
 .estadisticas-box {
     display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 15px;
     font-size: 13px; background: white; padding: 15px 20px; border-radius: 8px;
@@ -61,10 +68,12 @@ body { background-color: #f3f4f8; color: #333; line-height: 1.6; }
 .estadisticas-box div { display: flex; flex-direction: column; }
 .estadisticas-box strong { color: #5a189a; font-size: 15px; }
 
+/* ================= MAPA ================= */
 #mapa-inmuebles { height: 100%; min-height: 350px; width: 100%; border-radius: 12px; margin-bottom: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.05); z-index: 1; }
 .leyenda-colores { display: flex; gap: 15px; font-size: 12px; justify-content: center; margin-top: auto; }
 .leyenda-item span { display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin-right: 5px; }
 
+/* ================= TARJETAS ================= */
 #lista-inmuebles { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 20px; }
 .property-card {
     background: #ffffff; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 10px rgba(0,0,0,0.04);
@@ -96,6 +105,7 @@ body { background-color: #f3f4f8; color: #333; line-height: 1.6; }
 .property-button { background: #7b2cbf; color: #ffffff; padding: 8px 14px; border-radius: 6px; text-decoration: none; font-weight: 600; font-size: 13px; transition: 0.2s; }
 .property-button:hover { background: #5a189a; }
 
+/* ================= ESTADO VACÍO (EMPTY STATE) ================= */
 .empty-state { grid-column: 1 / -1; text-align: center; padding: 60px 20px; background: #ffffff; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.04); border: 2px dashed #d1d5db; }
 .empty-state-icon { font-size: 48px; margin-bottom: 15px; opacity: 0.8; }
 .empty-state h3 { color: #3c096c; margin-bottom: 8px; font-size: 20px; }
@@ -103,6 +113,7 @@ body { background-color: #f3f4f8; color: #333; line-height: 1.6; }
 .btn-limpiar-empty { background: #7b2cbf; color: white; border: none; padding: 10px 24px; border-radius: 8px; font-weight: 600; cursor: pointer; transition: background 0.2s; }
 .btn-limpiar-empty:hover { background: #5a189a; }
 
+/* ================= PAGINACIÓN ================= */
 #paginacion { display: flex; justify-content: center; gap: 6px; margin-top: 30px; }
 #paginacion button { padding: 8px 14px; border: 1px solid #e0e0e0; background: white; border-radius: 6px; cursor: pointer; font-weight: 600; }
 #paginacion button:hover:not(:disabled) { background: #f8f9fa; }
