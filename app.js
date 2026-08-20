@@ -4,7 +4,7 @@
 
 "use strict";
 
-const API_URL = "data/arriendos.json";
+const API_URL = "./data/arriendos.json"; // <--- Ajuste de ruta con punto relativo
 const INMUEBLES_POR_PAGINA = 12;
 
 let inmuebles = [];
@@ -394,7 +394,6 @@ function mostrarInmuebles() {
     if (!lista) return;
     lista.innerHTML = "";
 
-    // CONTROL DE ESTADO VACÍO (EMPTY STATE)
     if (resultadosActuales.length === 0) {
         lista.innerHTML = `
             <div class="empty-state">
@@ -435,7 +434,6 @@ function crearTarjeta(inmueble) {
     const claseFavorito = esFavorito ? "btn-favorito activo" : "btn-favorito";
     const ariaLabel = esFavorito ? "Quitar de favoritos" : "Guardar en favoritos";
     
-    // Alt Text Accesible para Lectores de Pantalla
     const altText = `Foto de ${limpiarCodificacion(inmueble.tipo_inmueble)} en ${limpiarCodificacion(inmueble.barrio)}`;
 
     tarjeta.innerHTML = `
@@ -474,8 +472,6 @@ function mostrarPaginacion() {
     
     const totalPaginas = Math.ceil(resultadosActuales.length / INMUEBLES_POR_PAGINA);
     if (totalPaginas <= 1) return;
-
-    // CONTROL INTELIGENTE DE PAGINACIÓN (Máximo 5 botones + Flechas)
     
     const btnPrev = document.createElement("button");
     btnPrev.innerHTML = "&laquo;";
