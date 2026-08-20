@@ -11,7 +11,6 @@ from playwright.sync_api import sync_playwright
 # ============================================================
 ARCHIVO_DATOS = Path(__file__).resolve().parent.parent / "data" / "arriendos.json"
 
-# URLs base con filtros de categoría residencial de Ciencuadras
 MUNICIPIOS = {
     "Cali": "https://www.ciencuadras.com/arriendo/inmuebles/cali/cali",
     "Jamundí": "https://www.ciencuadras.com/arriendo/inmuebles/valle-del-cauca/jamundi",
@@ -21,7 +20,7 @@ MUNICIPIOS = {
 }
 
 CANON_MINIMO = 300000
-CANON_MAXIMO = 2000000
+CANON_MAXIMO = 15000000 # Aumentamos el tope a 15 millones para no perder apartamentos costosos
 
 PALABRAS_PROHIBIDAS = [
     "oficina", "local", "bodega", "lote", "consultorio", "edificio", 
@@ -47,10 +46,18 @@ def guardar_arriendos(datos):
 
 def extraer_numero(texto):
     if not texto: return 0
+    
+    # 1. Buscar ESPECÍFICAMENTE números que tengan el signo $ antes (ej. $ 3.000.000)
+    match_precio = re.search(r'\$\s*([\d\.\,]+)', str(texto))
+    if match_precio:
+        limpio = re.sub(r'[^\d]', '', match_precio.group(1))
+        if limpio: return int(limpio)
+
+    # 2. Si la página no usa $, hacemos el fallback original
     limpio = re.sub(r'[^\d]', ' ', str(texto))
     numeros = [int(n) for n in limpio.split() if n.strip()]
     if not numeros: return 0
-    # Selecciona el valor que mejor encaje en el rango residencial
+    
     for n in numeros:
         if CANON_MINIMO <= n <= CANON_MAXIMO:
             return n
@@ -72,7 +79,6 @@ def procesar_municipio(page, municipio, url_base):
     print(f"\nConsultando Ciencuadras - {municipio}...")
     publicaciones = []
     
-    # Recorremos hasta 5 páginas por municipio para multiplicar opciones
     for num_pagina in range(1, 6):
         url = url_base if num_pagina == 1 else f"{url_base}?page={num_pagina}"
         
@@ -80,7 +86,6 @@ def procesar_municipio(page, municipio, url_base):
             page.goto(url, wait_until="domcontentloaded", timeout=60000)
             time.sleep(3)
 
-            # Scroll para forzar la carga de imágenes
             page.evaluate("window.scrollTo(0, document.body.scrollHeight/2)")
             time.sleep(1)
             page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
@@ -100,42 +105,35 @@ def procesar_municipio(page, municipio, url_base):
             for card in cards:
                 texto_card = card.text
 
-                # 1. Filtro estricto: Descartar todo inmueble comercial
                 if es_comercial(texto_card):
                     continue
 
-                # 2. Enlace
                 link_elem = card.find("a", href=True)
                 if not link_elem: continue
                 url_pub = link_elem["href"]
                 if not url_pub.startswith("http"):
                     url_pub = "https://www.ciencuadras.com" + url_pub
 
-                # 3. Título
                 titulo_elem = card.find(["h2", "h3", "h4", "p"], class_=re.compile(r"title|type|inmueble", re.I))
                 titulo = titulo_elem.text.strip() if titulo_elem else "Inmueble en arriendo"
                 if es_comercial(titulo):
                     continue
 
-                # 4. Precio
                 precio_elem = card.find(class_=re.compile(r"price|precio|value|canon", re.I))
                 canon = extraer_numero(precio_elem.text if precio_elem else texto_card)
 
                 if canon < CANON_MINIMO or canon > CANON_MAXIMO:
                     continue
 
-                # 5. Ubicación
                 ubicacion_elem = card.find(class_=re.compile(r"location|barrio|address|city", re.I))
                 ubicacion = ubicacion_elem.text.strip() if ubicacion_elem else municipio
                 barrio = ubicacion.split(",")[0].strip() if "," in ubicacion else ubicacion
 
-                # 6. Imagen
                 img_elem = card.find("img")
                 imagen = ""
                 if img_elem:
                     imagen = img_elem.get("src") or img_elem.get("data-src", "")
 
-                # 7. Detalles
                 textos_card_lower = texto_card.lower()
                 area = extraer_area(textos_card_lower)
                 habitaciones = None
