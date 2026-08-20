@@ -170,7 +170,7 @@ body {
     border-color: #a5b1c2;
 }
 
-/* ================= ESTADÍSTICAS ================= */
+/* ================= ESTADÍSTICAS ALINEADAS ================= */
 .estadisticas-box {
     display: flex;
     flex-wrap: wrap;
