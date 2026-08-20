@@ -127,13 +127,26 @@ function removerDuplicados(lista) {
 }
 
 function normalizarInmueble(inmueble) {
-    let canonNumerico = Number(inmueble.canon || 0);
-    if (canonNumerico > 0 && canonNumerico < 10000) canonNumerico = canonNumerico * 1000;
+    // 1. EL ASPIRADOR DE PRECIOS: Borramos símbolos, puntos, letras, etc.
+    let stringCanon = String(inmueble.canon || "0").replace(/[^0-9]/g, "");
+    let canonNumerico = Number(stringCanon);
+    
+    // 2. CORREGIMOS LOS CEROS FALTANTES: Si dice 1500, asumimos que son 1.5M
+    if (canonNumerico > 0 && canonNumerico < 100000) {
+        canonNumerico = canonNumerico * 1000;
+    }
+
     return {
-        ...inmueble, id: String(inmueble.id), canon: isNaN(canonNumerico) ? 0 : canonNumerico,
-        lat: inmueble.lat || null, lng: inmueble.lng || null, imagen_principal: (inmueble.imagen_principal || "").trim(),
-        ciudad: limpiarCodificacion(inmueble.ciudad || inmueble.municipio), municipio: limpiarCodificacion(inmueble.municipio || inmueble.ciudad),
-        barrio: limpiarCodificacion(inmueble.barrio), tipo_inmueble: limpiarCodificacion(inmueble.tipo_inmueble || inmueble.tipo || "Apartamento"),
+        ...inmueble, 
+        id: String(inmueble.id), 
+        canon: isNaN(canonNumerico) ? 0 : canonNumerico,
+        lat: inmueble.lat || null, 
+        lng: inmueble.lng || null, 
+        imagen_principal: (inmueble.imagen_principal || "").trim(),
+        ciudad: limpiarCodificacion(inmueble.ciudad || inmueble.municipio), 
+        municipio: limpiarCodificacion(inmueble.municipio || inmueble.ciudad),
+        barrio: limpiarCodificacion(inmueble.barrio), 
+        tipo_inmueble: limpiarCodificacion(inmueble.tipo_inmueble || inmueble.tipo || "Apartamento"),
         titulo: limpiarCodificacion(inmueble.titulo || "Inmueble en arriendo"),
     };
 }
@@ -251,7 +264,10 @@ function aplicarFiltros() {
     resultadosActuales = inmuebles.filter(inmueble => {
         const canon = Number(inmueble.canon) || 0;
         const tituloCompleto = `${inmueble.titulo} ${inmueble.tipo_inmueble} ${inmueble.barrio}`;
-        if (canon < 300000 || esComercialFrontend(tituloCompleto)) return false;
+        
+        // 3. FILTRO DE PRECIOS ABSURDOS: Ignora inmuebles en venta (> 30 Millones) o muy baratos (< 300 mil)
+        if (canon < 300000 || canon > 30000000 || esComercialFrontend(tituloCompleto)) return false;
+        
         if (viendoSoloFavoritos && !favoritos.includes(inmueble.id)) return false;
         if (ciudad && texto(inmueble.ciudad) !== ciudad && texto(inmueble.municipio) !== ciudad) return false;
         if (tipo && texto(inmueble.tipo_inmueble) !== tipo) return false;
