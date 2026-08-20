@@ -1,0 +1,987 @@
+{
+    "Ciudad 2000, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.3960521,
+        "lng": -76.5197969
+    },
+    "Cali, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.4519988,
+        "lng": -76.5325259
+    },
+    "El Ingenio, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.382555,
+        "lng": -76.5311104
+    },
+    "Las Acacias, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.433687,
+        "lng": -76.5211953
+    },
+    "Arriendo O Venta En Chipichape, Cali, Valle del Cauca, Colombia": null,
+    "A S D, Jamundí, Valle del Cauca, Colombia": {
+        "lat": 3.2585152,
+        "lng": -76.543512
+    },
+    "Angel Maria Camacho, Jamundí, Valle del Cauca, Colombia": {
+        "lat": 3.2586611,
+        "lng": -76.5413931
+    },
+    "Cr Alegra, Jamundí, Valle del Cauca, Colombia": {
+        "lat": 3.2570954,
+        "lng": -76.5573596
+    },
+    "Cr Jacamar, Jamundí, Valle del Cauca, Colombia": null,
+    "Cr La Arboleda, Jamundí, Valle del Cauca, Colombia": {
+        "lat": 3.2651338,
+        "lng": -76.5473434
+    },
+    "Juan De Ampudia, Jamundí, Valle del Cauca, Colombia": null,
+    "de Jamundí, Jamundí, Valle del Cauca, Colombia": {
+        "lat": 3.1859945,
+        "lng": -76.6745632
+    },
+    "Ub Alferez Real, Jamundí, Valle del Cauca, Colombia": null,
+    "GAITAN- SANGO DEL MEDIO. CUENTA CON, Jamundí, Valle del Cauca, Colombia": null,
+    "Arriendo O Venta En Cn Almendros Del Castillo, Jamundí, Valle del Cauca, Colombia": null,
+    "Jamundi, Jamundí, Valle del Cauca, Colombia": {
+        "lat": 3.2610458,
+        "lng": -76.5408235
+    },
+    "La Pradera, Jamundí, Valle del Cauca, Colombia": {
+        "lat": 3.2697091,
+        "lng": -76.5399414
+    },
+    "Colombina, Palmira, Valle del Cauca, Colombia": null,
+    "la colombina, Palmira, Valle del Cauca, Colombia": null,
+    "Las Americas, Palmira, Valle del Cauca, Colombia": {
+        "lat": 3.5158402,
+        "lng": -76.2968656
+    },
+    "A S D, Palmira, Valle del Cauca, Colombia": {
+        "lat": 3.5144451,
+        "lng": -76.3409218
+    },
+    "Alameda, Palmira, Valle del Cauca, Colombia": {
+        "lat": 3.5561366,
+        "lng": -76.2890363
+    },
+    "Berlin, Palmira, Valle del Cauca, Colombia": null,
+    "Nuevo Área privada, Palmira, Valle del Cauca, Colombia": null,
+    "El Trebol, Palmira, Valle del Cauca, Colombia": null,
+    "Obrero, Palmira, Valle del Cauca, Colombia": {
+        "lat": 3.532114,
+        "lng": -76.2959245
+    },
+    "Portales Del Recreo, Palmira, Valle del Cauca, Colombia": null,
+    "Trinidad, Palmira, Valle del Cauca, Colombia": {
+        "lat": 3.5261536,
+        "lng": -76.295551
+    },
+    "Ub Plaza Campestre, Palmira, Valle del Cauca, Colombia": null,
+    "Barrio Nuevo, Palmira, Valle del Cauca, Colombia": {
+        "lat": 3.4771741,
+        "lng": -76.3949475
+    },
+    "Emilia, Palmira, Valle del Cauca, Colombia": {
+        "lat": 3.5348402,
+        "lng": -76.3078756
+    },
+    "La Vega, Palmira, Valle del Cauca, Colombia": null,
+    "Quintas Paraiso Malibu, Palmira, Valle del Cauca, Colombia": null,
+    "que combina tranquilidad y excelente ubicación. Con un área privada de 50 m, Yumbo, Valle del Cauca, Colombia": null,
+    "Ciudad Guabinas, Yumbo, Valle del Cauca, Colombia": null,
+    "Belalcazar, Yumbo, Valle del Cauca, Colombia": {
+        "lat": 3.5849899,
+        "lng": -76.4923148
+    },
+    "Mompox, Yumbo, Valle del Cauca, Colombia": null,
+    "Panorama, Yumbo, Valle del Cauca, Colombia": {
+        "lat": 3.6270175,
+        "lng": -76.4719687
+    },
+    "ciudad guabinas, Yumbo, Valle del Cauca, Colombia": null,
+    "San Jorge, Yumbo, Valle del Cauca, Colombia": null,
+    "Yumbo, Yumbo, Valle del Cauca, Colombia": {
+        "lat": 3.6231653,
+        "lng": -76.5364105
+    },
+    "tranquilo, Candelaria, Valle del Cauca, Colombia": null,
+    "nuevo tranquilo, Candelaria, Valle del Cauca, Colombia": null,
+    "estratégico que combina comodidad y acceso a servicios esenciales. Situado en un segundo piso, Candelaria, Valle del Cauca, Colombia": null,
+    "en crecimiento garantiza una excelente conectividad y visibilidad, Candelaria, Valle del Cauca, Colombia": null,
+    "Candelaria, Candelaria, Valle del Cauca, Colombia": {
+        "lat": 3.4505438,
+        "lng": -76.4731585
+    },
+    "residencial con acceso a diferentes servicios y comercios, Candelaria, Valle del Cauca, Colombia": null,
+    "El Zurco, Candelaria, Valle del Cauca, Colombia": null,
+    "de gran crecimiento y excelente proyección. Este apartamento en alquiler es ideal para quienes buscan tranquilidad, Candelaria, Valle del Cauca, Colombia": null,
+    "Jorge Eliecer Gaitan, Candelaria, Valle del Cauca, Colombia": null,
+    "Pueblito Viejo, Candelaria, Valle del Cauca, Colombia": {
+        "lat": 3.3855134,
+        "lng": -76.3530035
+    },
+    "en crecimiento. Su diseño funcional permite adaptarse a diversas actividades comerciales, Candelaria, Valle del Cauca, Colombia": null,
+    "residencial tranquilo, Candelaria, Valle del Cauca, Colombia": null,
+    "Transito Municipal, Cali, Valle del Cauca, Colombia": null,
+    "emergente en la Zona Sur de Cali, Cali, Valle del Cauca, Colombia": null,
+    "EL LIDO, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.4207824,
+        "lng": -76.5511968
+    },
+    "El Vallado, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.4062379,
+        "lng": -76.4994175
+    },
+    "la Esperanza, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.4203929,
+        "lng": -76.5199122
+    },
+    "Nueva Floresta, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.438543,
+        "lng": -76.4970088
+    },
+    "Villa del Sur, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.4129952,
+        "lng": -76.5192704
+    },
+    "de Ciudad Country, Jamundí, Valle del Cauca, Colombia": {
+        "lat": 3.2784269,
+        "lng": -76.5277668
+    },
+    "con piscina y parque acuático, Jamundí, Valle del Cauca, Colombia": null,
+    "de Jamundi exactamente al lado de la parcelación la Morada, Jamundí, Valle del Cauca, Colombia": null,
+    "Nuevo, Palmira, Valle del Cauca, Colombia": {
+        "lat": 3.4771741,
+        "lng": -76.3949475
+    },
+    "Parque de La Italia, Palmira, Valle del Cauca, Colombia": {
+        "lat": 3.5036339,
+        "lng": -76.3087239
+    },
+    "es contar con parqueadero privado, Yumbo, Valle del Cauca, Colombia": null,
+    "de Ciudad Guabinas. Este acogedor inmueble, Yumbo, Valle del Cauca, Colombia": null,
+    "4. COD 2434. Excelente ubicación. Cerca de vía principal, Candelaria, Valle del Cauca, Colombia": null,
+    "Cali, Valle del Cauca, Colombia": {
+        "lat": 3.4108435,
+        "lng": -76.5812127
+    },
+    "de Jamundí, Valle del Cauca, Colombia": {
+        "lat": 3.1859945,
+        "lng": -76.6745632
+    },
+    "Yumbo, Valle del Cauca, Colombia": {
+        "lat": 3.5834664,
+        "lng": -76.4952223
+    },
+    "Candelaria, Valle del Cauca, Colombia": {
+        "lat": 3.4090481,
+        "lng": -76.347379
+    },
+    "emergente en la Zona Sur de Cali, Valle del Cauca, Colombia": {
+        "lat": 3.4108435,
+        "lng": -76.5812127
+    },
+    "Jamundí, Valle del Cauca, Colombia": {
+        "lat": 3.2618357,
+        "lng": -76.5407975
+    },
+    "Palmira, Valle del Cauca, Colombia": {
+        "lat": 3.5308373,
+        "lng": -76.2988048
+    },
+    "Cristales, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.4374185,
+        "lng": -76.5482819
+    },
+    "Sierra de Normandía, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.4108435,
+        "lng": -76.5812127
+    },
+    "La Selva, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.4102206,
+        "lng": -76.5292515
+    },
+    "Santa Bárbara, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.4420611,
+        "lng": -76.5467584
+    },
+    "Versalles, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.4612255,
+        "lng": -76.5287823
+    },
+    "Ciudad Melendez, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.4108435,
+        "lng": -76.5812127
+    },
+    "Pance, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.3228745,
+        "lng": -76.6096373
+    },
+    "Santa Teresita, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.4524011,
+        "lng": -76.5477026
+    },
+    "Valle del Lili, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.3742425,
+        "lng": -76.5243272
+    },
+    "Champagñat, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.42763,
+        "lng": -76.5348709
+    },
+    "Ciudad Pacifica, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.3449387,
+        "lng": -76.5177912
+    },
+    "Guabinas, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.4108435,
+        "lng": -76.5812127
+    },
+    "Ciudad Jardín, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.3663153,
+        "lng": -76.5361691
+    },
+    "Capri, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.391729,
+        "lng": -76.5418636
+    },
+    "Altos del Semillero, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.4108435,
+        "lng": -76.5812127
+    },
+    "Colseguros, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.427861,
+        "lng": -76.5323533
+    },
+    "Pampalinda, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.4044557,
+        "lng": -76.5510539
+    },
+    "Popular, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.4697447,
+        "lng": -76.5118951
+    },
+    "Brisas de los Álamos, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.4943162,
+        "lng": -76.5042157
+    },
+    "Cristóbal Colón, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.421424,
+        "lng": -76.5247647
+    },
+    "Ciudad Bochalema, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.4108435,
+        "lng": -76.5812127
+    },
+    "Tejares Cristales, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.4374185,
+        "lng": -76.5482819
+    },
+    "Las Delicias, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.4618728,
+        "lng": -76.5095924
+    },
+    "Prados del Norte, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.4722025,
+        "lng": -76.5198344
+    },
+    "La Flora, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.4830776,
+        "lng": -76.523257
+    },
+    "Ciudadela Comfandi, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.3840086,
+        "lng": -76.522243
+    },
+    "El Guabal, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.4154061,
+        "lng": -76.5269645
+    },
+    "Caney, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.3826913,
+        "lng": -76.5189707
+    },
+    "Atanasio Girardot, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.4444199,
+        "lng": -76.5079254
+    },
+    "Palmares de Guadalupe, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.4108435,
+        "lng": -76.5812127
+    },
+    "Kachipay, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.3527586,
+        "lng": -76.5024663
+    },
+    "Colinas del Bosque, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.4108435,
+        "lng": -76.5812127
+    },
+    "Álamos, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.4943162,
+        "lng": -76.5042157
+    },
+    "Fonaviemcali, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.4844162,
+        "lng": -76.4890426
+    },
+    "Obrero, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.4487644,
+        "lng": -76.5203196
+    },
+    "Panamericano, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.4147023,
+        "lng": -76.5363761
+    },
+    "Cuarto de Legua, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.4084354,
+        "lng": -76.5497733
+    },
+    "Naranjos del Caney, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.4108435,
+        "lng": -76.5812127
+    },
+    "Santa Mónica Residencial, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.4108435,
+        "lng": -76.5812127
+    },
+    "Primero de Mayo, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.4068886,
+        "lng": -76.5336503
+    },
+    "Ciudad 2.000, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.4853339,
+        "lng": -76.5083222
+    },
+    "Jorge Isaacs, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.4572481,
+        "lng": -76.5173726
+    },
+    "Departamental, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.4141232,
+        "lng": -76.5338453
+    },
+    "San Fernando Viejo, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.4406361,
+        "lng": -76.5434012
+    },
+    "Pichindé, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.4313302,
+        "lng": -76.6574322
+    },
+    "El Limonar, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.4025646,
+        "lng": -76.5295646
+    },
+    "20 de Julio, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.4349875,
+        "lng": -76.5129519
+    },
+    "Mirador de Terrazas, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.3648028,
+        "lng": -76.5264994
+    },
+    "Juanambú, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.4561172,
+        "lng": -76.5378964
+    },
+    "Gratamira, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.4040463,
+        "lng": -76.5291952
+    },
+    "El Cedro, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.4328027,
+        "lng": -76.5379232
+    },
+    "Miraflores, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.4390678,
+        "lng": -76.5399456
+    },
+    "Santa Anita, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.4063604,
+        "lng": -76.5383041
+    },
+    "Chipichape, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.4765359,
+        "lng": -76.5281527
+    },
+    "Junín, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.4346593,
+        "lng": -76.5284424
+    },
+    "El Troncal, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.4508482,
+        "lng": -76.5068073
+    },
+    "Alfonso López, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.4650595,
+        "lng": -76.4787912
+    },
+    "Tequendama, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.4208327,
+        "lng": -76.5453099
+    },
+    "Benjamín Herrera, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.44754,
+        "lng": -76.5162058
+    },
+    "Urbanización La Merced, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.4108435,
+        "lng": -76.5812127
+    },
+    "La Campiña, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.4812274,
+        "lng": -76.5269221
+    },
+    "La Hacienda, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.3957936,
+        "lng": -76.5309605
+    },
+    "Vipasa, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.4810324,
+        "lng": -76.5183695
+    },
+    "Piamonte, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.3643066,
+        "lng": -76.5231466
+    },
+    "La Fortaleza, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.4268803,
+        "lng": -76.5134561
+    },
+    "Ciudad Córdoba, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.4011607,
+        "lng": -76.5080327
+    },
+    "Hacienda Kachipay, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.357174,
+        "lng": -76.5059579
+    },
+    "Chapinero, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.4446555,
+        "lng": -76.502164
+    },
+    "Oasis de Comfandi, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.4879805,
+        "lng": -76.4972469
+    },
+    "San Fernando, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.4364868,
+        "lng": -76.5443337
+    },
+    "San Bosco, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.4423433,
+        "lng": -76.5323137
+    },
+    "Simón Bolívar, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.4419685,
+        "lng": -76.5178196
+    },
+    "Normandía, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.453215,
+        "lng": -76.5449882
+    },
+    "Tierralinda, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.4108435,
+        "lng": -76.5812127
+    },
+    "El Refugio, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.3969142,
+        "lng": -76.5501917
+    },
+    "Tierralinda del Lago, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.4108435,
+        "lng": -76.5812127
+    },
+    "La Bocha, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.354469,
+        "lng": -76.5169502
+    },
+    "Bellavista, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.4469924,
+        "lng": -76.5510951
+    },
+    "San Antonio, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.4474138,
+        "lng": -76.5385434
+    },
+    "Las Quintas de Don Simón, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.4108435,
+        "lng": -76.5812127
+    },
+    "Alfaguara, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.4108435,
+        "lng": -76.5812127
+    },
+    "Las Vegas de Comfandi, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.3809314,
+        "lng": -76.509273
+    },
+    "Santa Mónica Alta, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.4108435,
+        "lng": -76.5812127
+    },
+    "Santa Isabel, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.4273515,
+        "lng": -76.5492475
+    },
+    "Refugio Plaza, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.3998126,
+        "lng": -76.5480546
+    },
+    "Arboleda, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.3897147,
+        "lng": -76.5502785
+    },
+    "San Fernando Nuevo, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.4297543,
+        "lng": -76.5409807
+    },
+    "Ciudad Capri, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.3892856,
+        "lng": -76.5421022
+    },
+    "Santa Rosa del Oeste, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.4108435,
+        "lng": -76.5812127
+    },
+    "El Peñón, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.4501016,
+        "lng": -76.5427721
+    },
+    "Metropolitano del Norte, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.4820602,
+        "lng": -76.4923686
+    },
+    "Menga, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.4919113,
+        "lng": -76.5258348
+    },
+    "Meléndez, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.3780431,
+        "lng": -76.5452027
+    },
+    "Calimío, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.4861707,
+        "lng": -76.4842216
+    },
+    "Centenario, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.4534452,
+        "lng": -76.5365714
+    },
+    "Camino Real, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.4094282,
+        "lng": -76.5414418
+    },
+    "Paso del Comercio, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.4935723,
+        "lng": -76.4871946
+    },
+    "Altos Menga, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.4903436,
+        "lng": -76.5342701
+    },
+    "Ciudad Los Álamos, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.4853339,
+        "lng": -76.5083222
+    },
+    "Nueva Tequendama, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.4133646,
+        "lng": -76.5436149
+    },
+    "La Reforma, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.3979738,
+        "lng": -76.5703312
+    },
+    "Villa del Prado, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.4646181,
+        "lng": -76.4953298
+    },
+    "San Vicente, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.4669999,
+        "lng": -76.5260269
+    },
+    "Ciudad Country, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.4108435,
+        "lng": -76.5812127
+    },
+    "Alameda, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.4371172,
+        "lng": -76.5358828
+    },
+    "Eucarístico, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.4237638,
+        "lng": -76.5406966
+    },
+    "La Buitrera, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.378927,
+        "lng": -76.5797825
+    },
+    "Santa Rita, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.4523154,
+        "lng": -76.5524554
+    },
+    "Granada, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.459255,
+        "lng": -76.5335834
+    },
+    "San Carlos, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.4225375,
+        "lng": -76.5136439
+    },
+    "Ciudadela Pasoancho, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.3857544,
+        "lng": -76.5359652
+    },
+    "Villacolombia, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.4438622,
+        "lng": -76.4989006
+    },
+    "Belalcázar, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.4417398,
+        "lng": -76.5221411
+    },
+    "Dapa, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.4108435,
+        "lng": -76.5812127
+    },
+    "San Judas, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.4088022,
+        "lng": -76.5240777
+    },
+    "Santa Mónica Norte, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.4681989,
+        "lng": -76.5297933
+    },
+    "Altos de Ciudad Jardín, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.4108435,
+        "lng": -76.5812127
+    },
+    "El Lido, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.4207824,
+        "lng": -76.5511968
+    },
+    "Aguacatal, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.4586543,
+        "lng": -76.5573768
+    },
+    "Acopi, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.4108435,
+        "lng": -76.5812127
+    },
+    "San Francisco, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.3307642,
+        "lng": -76.6154105
+    },
+    "Palmeras del Norte, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.4108435,
+        "lng": -76.5812127
+    },
+    "Guadalupe, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.4096655,
+        "lng": -76.547452
+    },
+    "San Cayetano, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.4440172,
+        "lng": -76.539142
+    },
+    "Eduardo Santos, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.4293221,
+        "lng": -76.5051305
+    },
+    "El Castillo, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.4550425,
+        "lng": -76.5364414
+    },
+    "Las Vegas, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.3804789,
+        "lng": -76.5421538
+    },
+    "3 de Julio, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.4329567,
+        "lng": -76.5399487
+    },
+    "Salomia, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.4643366,
+        "lng": -76.5051788
+    },
+    "Manzanares, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.4653031,
+        "lng": -76.5097332
+    },
+    "La Espadaña, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.4108435,
+        "lng": -76.5812127
+    },
+    "El Paraíso, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.4317853,
+        "lng": -76.5065682
+    },
+    "Jamundí Conjunto Residencial Los Naranjos Manzana 6, Jamundí, Valle del Cauca, Colombia": {
+        "lat": 3.2618357,
+        "lng": -76.5407975
+    },
+    "Jamundí Ciudad del parque, Jamundí, Valle del Cauca, Colombia": {
+        "lat": 3.2618357,
+        "lng": -76.5407975
+    },
+    "Jamundí 3 alcobas, Jamundí, Valle del Cauca, Colombia": {
+        "lat": 3.2618357,
+        "lng": -76.5407975
+    },
+    "Jamundí 2 alcobas, Jamundí, Valle del Cauca, Colombia": {
+        "lat": 3.2618357,
+        "lng": -76.5407975
+    },
+    "Jamundí CR Arrayanes, Jamundí, Valle del Cauca, Colombia": {
+        "lat": 3.2618357,
+        "lng": -76.5407975
+    },
+    "Jamundí Conjunto Residencial Solaria, Jamundí, Valle del Cauca, Colombia": {
+        "lat": 3.2618357,
+        "lng": -76.5407975
+    },
+    "Jamundí 4 alcobas, Jamundí, Valle del Cauca, Colombia": {
+        "lat": 3.2618357,
+        "lng": -76.5407975
+    },
+    "Jamundí UNIDAD RESIDENCIAL ARIA, Jamundí, Valle del Cauca, Colombia": {
+        "lat": 3.2618357,
+        "lng": -76.5407975
+    },
+    "Jamundí CIUDAD COUNTRY JAMUNDI, Jamundí, Valle del Cauca, Colombia": {
+        "lat": 3.2618357,
+        "lng": -76.5407975
+    },
+    "Jamundí PANGOLA JAMUNDI, Jamundí, Valle del Cauca, Colombia": {
+        "lat": 3.2766178,
+        "lng": -76.5377454
+    },
+    "Jamundí LA PRADERA, Jamundí, Valle del Cauca, Colombia": {
+        "lat": 3.2668252,
+        "lng": -76.5405585
+    },
+    "Jamundí palmetum park, Jamundí, Valle del Cauca, Colombia": {
+        "lat": 3.2618357,
+        "lng": -76.5407975
+    },
+    "Jamundí almendros de belicia, Jamundí, Valle del Cauca, Colombia": {
+        "lat": 3.2618357,
+        "lng": -76.5407975
+    },
+    "Jamundí parque natura, Jamundí, Valle del Cauca, Colombia": {
+        "lat": 3.2601511,
+        "lng": -76.5548836
+    },
+    "Jamundí ALMENDROS DE BELICIA, Jamundí, Valle del Cauca, Colombia": {
+        "lat": 3.2618357,
+        "lng": -76.5407975
+    },
+    "Jamundí Terranova, Jamundí, Valle del Cauca, Colombia": {
+        "lat": 3.2618357,
+        "lng": -76.5407975
+    },
+    "Jamundí Urbanización Ciudad Country, Jamundí, Valle del Cauca, Colombia": {
+        "lat": 3.2618357,
+        "lng": -76.5407975
+    },
+    "Jamundí SAN BENITO II , CALLE 14 SUR ., Jamundí, Valle del Cauca, Colombia": {
+        "lat": 3.2618357,
+        "lng": -76.5407975
+    },
+    "Jamundí Conjunto Residencial Bambu, Jamundí, Valle del Cauca, Colombia": {
+        "lat": 3.2618357,
+        "lng": -76.5407975
+    },
+    "Jamundí CASAVENTO ALFAGUARA CASA110, Jamundí, Valle del Cauca, Colombia": {
+        "lat": 3.2618357,
+        "lng": -76.5407975
+    },
+    "Jamundí CONJUNTO RESIDENCIAL RINCON DE LAS GARZAS, Jamundí, Valle del Cauca, Colombia": {
+        "lat": 3.2618357,
+        "lng": -76.5407975
+    },
+    "Jamundí EL CONDADO, Jamundí, Valle del Cauca, Colombia": {
+        "lat": 3.2618357,
+        "lng": -76.5407975
+    },
+    "Jamundí Alfaguara, Jamundí, Valle del Cauca, Colombia": {
+        "lat": 3.2580748,
+        "lng": -76.5572287
+    },
+    "Jamundí Paisaje de las Flores Terranova, Jamundí, Valle del Cauca, Colombia": {
+        "lat": 3.2618357,
+        "lng": -76.5407975
+    },
+    "Jamundí 10 alcobas, Jamundí, Valle del Cauca, Colombia": {
+        "lat": 3.2618357,
+        "lng": -76.5407975
+    },
+    "Jamundí 1 alcoba, Jamundí, Valle del Cauca, Colombia": {
+        "lat": 3.2618357,
+        "lng": -76.5407975
+    },
+    "Jamundí 5 alcobas, Jamundí, Valle del Cauca, Colombia": {
+        "lat": 3.2618357,
+        "lng": -76.5407975
+    },
+    "Jamundí CIUDAD COUNTRY CONJUNTO AZOR, Jamundí, Valle del Cauca, Colombia": {
+        "lat": 3.2618357,
+        "lng": -76.5407975
+    },
+    "Jamundí JAMUNDI LA MORADA, Jamundí, Valle del Cauca, Colombia": {
+        "lat": 3.2618357,
+        "lng": -76.5407975
+    },
+    "Palmira Urbanozación El Bosque, Palmira, Valle del Cauca, Colombia": {
+        "lat": 3.5308373,
+        "lng": -76.2988048
+    },
+    "Palmira 2 alcobas, Palmira, Valle del Cauca, Colombia": {
+        "lat": 3.5308373,
+        "lng": -76.2988048
+    },
+    "Palmira Parques De La Italia, Palmira, Valle del Cauca, Colombia": {
+        "lat": 3.5308373,
+        "lng": -76.2988048
+    },
+    "Palmira 3 alcobas, Palmira, Valle del Cauca, Colombia": {
+        "lat": 3.5308373,
+        "lng": -76.2988048
+    },
+    "Palmira sembrador, Palmira, Valle del Cauca, Colombia": {
+        "lat": 3.5308373,
+        "lng": -76.2988048
+    },
+    "Palmira Corregimiento La Dolores, Palmira, Valle del Cauca, Colombia": {
+        "lat": 3.5308373,
+        "lng": -76.2988048
+    },
+    "Palmira Rozo, Palmira, Valle del Cauca, Colombia": {
+        "lat": 3.6159245,
+        "lng": -76.3995707
+    },
+    "Yumbo 2 alcobas, Yumbo, Valle del Cauca, Colombia": {
+        "lat": 3.5834664,
+        "lng": -76.4952223
+    },
+    "Yumbo uribe, Yumbo, Valle del Cauca, Colombia": {
+        "lat": 3.5792007,
+        "lng": -76.4925157
+    },
+    "Yumbo Conjunto Residencial Turpial de la Colina, Yumbo, Valle del Cauca, Colombia": {
+        "lat": 3.5834664,
+        "lng": -76.4952223
+    },
+    "Yumbo Ciudad Guabinas, Yumbo, Valle del Cauca, Colombia": {
+        "lat": 3.5834664,
+        "lng": -76.4952223
+    },
+    "Yumbo guabinas nuqui, Yumbo, Valle del Cauca, Colombia": {
+        "lat": 3.5834664,
+        "lng": -76.4952223
+    },
+    "Yumbo 3 alcobas, Yumbo, Valle del Cauca, Colombia": {
+        "lat": 3.5834664,
+        "lng": -76.4952223
+    },
+    "Yumbo 7 alcobas, Yumbo, Valle del Cauca, Colombia": {
+        "lat": 3.5834664,
+        "lng": -76.4952223
+    },
+    "Yumbo 4 alcobas, Yumbo, Valle del Cauca, Colombia": {
+        "lat": 3.5834664,
+        "lng": -76.4952223
+    },
+    "Candelaria Batara 2 Poblado Campestre, Candelaria, Valle del Cauca, Colombia": {
+        "lat": 3.4090481,
+        "lng": -76.347379
+    },
+    "Candelaria Manzanares Sector 6, Candelaria, Valle del Cauca, Colombia": {
+        "lat": 3.4090481,
+        "lng": -76.347379
+    },
+    "Candelaria 2 alcobas, Candelaria, Valle del Cauca, Colombia": {
+        "lat": 3.4090481,
+        "lng": -76.347379
+    },
+    "Candelaria 1 alcoba, Candelaria, Valle del Cauca, Colombia": {
+        "lat": 3.4090481,
+        "lng": -76.347379
+    },
+    "Candelaria la victoria villa gorgona, Candelaria, Valle del Cauca, Colombia": {
+        "lat": 3.4090481,
+        "lng": -76.347379
+    },
+    "Candelaria Manzanares sector 4, Candelaria, Valle del Cauca, Colombia": {
+        "lat": 3.4090481,
+        "lng": -76.347379
+    },
+    "Candelaria 3 alcobas, Candelaria, Valle del Cauca, Colombia": {
+        "lat": 3.4090481,
+        "lng": -76.347379
+    },
+    "Pacará, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.4867333,
+        "lng": -76.5092196
+    },
+    "Las Granjas, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.4095118,
+        "lng": -76.526776
+    },
+    "arriendo, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.4108435,
+        "lng": -76.5812127
+    },
+    "Oficina en arriendo, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.4108435,
+        "lng": -76.5812127
+    },
+    "Bodega en arriendo, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.4108435,
+        "lng": -76.5812127
+    },
+    "Local en arriendo, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.4108435,
+        "lng": -76.5812127
+    },
+    "arriendo, Jamundí, Valle del Cauca, Colombia": {
+        "lat": 3.2618357,
+        "lng": -76.5407975
+    },
+    "Apartaestudio en arriendo, Jamundí, Valle del Cauca, Colombia": {
+        "lat": 3.2618357,
+        "lng": -76.5407975
+    },
+    "arriendo, Palmira, Valle del Cauca, Colombia": {
+        "lat": 3.5308373,
+        "lng": -76.2988048
+    },
+    "Local en arriendo, Palmira, Valle del Cauca, Colombia": {
+        "lat": 3.5308373,
+        "lng": -76.2988048
+    },
+    "Local comercial en arriendo, Palmira, Valle del Cauca, Colombia": {
+        "lat": 3.5308373,
+        "lng": -76.2988048
+    },
+    "arriendo, Yumbo, Valle del Cauca, Colombia": {
+        "lat": 3.5834664,
+        "lng": -76.4952223
+    },
+    "Bodega en arriendo, Yumbo, Valle del Cauca, Colombia": {
+        "lat": 3.5834664,
+        "lng": -76.4952223
+    },
+    "arriendo, Candelaria, Valle del Cauca, Colombia": {
+        "lat": 3.4090481,
+        "lng": -76.347379
+    },
+    "Bodega en arriendo, Candelaria, Valle del Cauca, Colombia": {
+        "lat": 3.4090481,
+        "lng": -76.347379
+    },
+    "Paseo de los Almendros, Cali, Valle del Cauca, Colombia": {
+        "lat": 3.4722774,
+        "lng": -76.4950025
+    }
+}
