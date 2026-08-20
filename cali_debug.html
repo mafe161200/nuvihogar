@@ -1,0 +1,943 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="description"
+        content="Encuentra apartamentos, casas y otros inmuebles en arriendo en Cali y municipios cercanos."
+    >
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <link
+        rel="stylesheet"
+        href="styles.css"
+    >
+
+    <title>Arriendos Cali | Encuentra tu próximo hogar</title>
+</head>
+
+<body>
+
+    <!-- ==========================================
+         HEADER
+    =========================================== -->
+
+    <header class="site-header">
+
+        <div class="container header-inner">
+
+            <a
+                href="#inicio"
+                class="brand"
+                aria-label="Arriendos Cali - Inicio"
+            >
+
+                <span class="brand-mark">
+                    AC
+                </span>
+
+                <span class="brand-text">
+
+                    <strong>
+                        Arriendos Cali
+                    </strong>
+
+                    <small>
+                        Encuentra tu próximo hogar
+                    </small>
+
+                </span>
+
+            </a>
+
+
+            <nav
+                class="main-nav"
+                aria-label="Navegación principal"
+            >
+
+                <a href="#resultados">
+                    Inmuebles
+                </a>
+
+                <a href="#filtros">
+                    Buscar
+                </a>
+
+                <a href="#estadisticas">
+                    Estadísticas
+                </a>
+
+            </nav>
+
+
+            <div
+                class="api-status"
+                aria-live="polite"
+            >
+
+                <span
+                    class="status-dot"
+                    aria-hidden="true"
+                ></span>
+
+                <span id="estado">
+                    Conectando...
+                </span>
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <main id="inicio">
+
+        <!-- ==========================================
+             HERO
+        =========================================== -->
+
+        <section class="hero">
+
+            <div class="container hero-content">
+
+                <div class="hero-copy">
+
+                    <span class="eyebrow">
+                        INMUEBLES EN ARRIENDO
+                    </span>
+
+                    <h1>
+                        Encuentra un lugar
+                        <span>que se adapte a ti.</span>
+                    </h1>
+
+                    <p>
+                        Explora opciones de vivienda en Cali y municipios
+                        cercanos. Compara precios, características y
+                        ubicación desde un solo lugar.
+                    </p>
+
+                </div>
+
+
+                <div class="hero-search">
+
+                    <div class="search-heading">
+
+                        <span>
+                            BUSCA TU PRÓXIMO HOGAR
+                        </span>
+
+                        <strong>
+                            Empieza por una ubicación
+                        </strong>
+
+                    </div>
+
+
+                    <div class="hero-search-fields">
+
+                        <div class="hero-search-field">
+
+                            <span
+                                class="field-icon"
+                                aria-hidden="true"
+                            >
+                                ⌖
+                            </span>
+
+                            <div>
+
+                                <label
+                                    for="filtro-ciudad"
+                                >
+                                    Ciudad o municipio
+                                </label>
+
+                                <input
+                                    type="text"
+                                    id="filtro-ciudad"
+                                    placeholder="Ej. Cali"
+                                >
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="hero-search-field">
+
+                            <span
+                                class="field-icon"
+                                aria-hidden="true"
+                            >
+                                ◇
+                            </span>
+
+                            <div>
+
+                                <label
+                                    for="filtro-barrio"
+                                >
+                                    Barrio
+                                </label>
+
+                                <input
+                                    type="text"
+                                    id="filtro-barrio"
+                                    placeholder="Ej. Valle del Lili"
+                                >
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="hero-search-field">
+
+                            <span
+                                class="field-icon"
+                                aria-hidden="true"
+                            >
+                                $
+                            </span>
+
+                            <div>
+
+                                <label
+                                    for="filtro-precio-maximo"
+                                >
+                                    Presupuesto máximo
+                                </label>
+
+                                <input
+                                    type="number"
+                                    id="filtro-precio-maximo"
+                                    placeholder="$ 0"
+                                    min="0"
+                                >
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ==========================================
+             ESTADÍSTICAS
+        =========================================== -->
+
+        <section
+            class="stats-section"
+            id="estadisticas"
+        >
+
+            <div class="container">
+
+                <div class="stats-grid">
+
+                    <article class="stat-card">
+
+                        <span class="stat-icon">
+                            #
+                        </span>
+
+                        <div>
+
+                            <span class="stat-label">
+                                Inmuebles encontrados
+                            </span>
+
+                            <strong id="estadistica-cantidad">
+                                0
+                            </strong>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="stat-card">
+
+                        <span class="stat-icon">
+                            $
+                        </span>
+
+                        <div>
+
+                            <span class="stat-label">
+                                Canon promedio
+                            </span>
+
+                            <strong id="estadistica-promedio">
+                                $0
+                            </strong>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="stat-card">
+
+                        <span class="stat-icon">
+                            ↓
+                        </span>
+
+                        <div>
+
+                            <span class="stat-label">
+                                Canon mínimo
+                            </span>
+
+                            <strong id="estadistica-minimo">
+                                $0
+                            </strong>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="stat-card">
+
+                        <span class="stat-icon">
+                            ↑
+                        </span>
+
+                        <div>
+
+                            <span class="stat-label">
+                                Canon máximo
+                            </span>
+
+                            <strong id="estadistica-maximo">
+                                $0
+                            </strong>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="stat-card">
+
+                        <span class="stat-icon">
+                            m²
+                        </span>
+
+                        <div>
+
+                            <span class="stat-label">
+                                Precio promedio / m²
+                            </span>
+
+                            <strong id="estadistica-m2">
+                                $0
+                            </strong>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ==========================================
+             RESULTADOS
+        =========================================== -->
+
+        <section
+            class="content-section"
+            id="resultados"
+        >
+
+            <div class="container content-layout">
+
+
+                <!-- ==================================
+                     FILTROS
+                =================================== -->
+
+                <aside
+                    class="filters-panel"
+                    id="filtros"
+                >
+
+                    <div class="filters-header">
+
+                        <div>
+
+                            <span class="section-kicker">
+                                ENCUENTRA
+                            </span>
+
+                            <h2>
+                                Filtrar resultados
+                            </h2>
+
+                        </div>
+
+                        <button
+                            type="button"
+                            id="limpiar-filtros"
+                            class="clear-button"
+                        >
+                            Limpiar
+                        </button>
+
+                    </div>
+
+
+                    <div class="filter-block">
+
+                        <div class="filter-block-title">
+                            Ubicación
+                        </div>
+
+
+                        <div class="filter-group">
+
+                            <label for="filtro-sector">
+                                Sector
+                            </label>
+
+                            <input
+                                type="text"
+                                id="filtro-sector"
+                                placeholder="Ej. Sur"
+                            >
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="filter-block">
+
+                        <div class="filter-block-title">
+                            Tipo de inmueble
+                        </div>
+
+
+                        <div class="filter-row">
+
+                            <div class="filter-group">
+
+                                <label for="filtro-tipo">
+                                    Tipo
+                                </label>
+
+                                <select id="filtro-tipo">
+
+                                    <option value="">
+                                        Todos
+                                    </option>
+
+                                    <option value="Apartamento">
+                                        Apartamento
+                                    </option>
+
+                                    <option value="Casa">
+                                        Casa
+                                    </option>
+
+                                    <option value="Apartaestudio">
+                                        Apartaestudio
+                                    </option>
+
+                                    <option value="Habitación">
+                                        Habitación
+                                    </option>
+
+                                    <option value="Local">
+                                        Local
+                                    </option>
+
+                                    <option value="Oficina">
+                                        Oficina
+                                    </option>
+
+                                </select>
+
+                            </div>
+
+
+                            <div class="filter-group">
+
+                                <label for="filtro-estrato">
+                                    Estrato
+                                </label>
+
+                                <select id="filtro-estrato">
+
+                                    <option value="">
+                                        Todos
+                                    </option>
+
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+
+                                </select>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="filter-block">
+
+                        <div class="filter-block-title">
+                            Espacios
+                        </div>
+
+
+                        <div class="filter-row">
+
+                            <div class="filter-group">
+
+                                <label for="filtro-habitaciones">
+                                    Habitaciones
+                                </label>
+
+                                <select id="filtro-habitaciones">
+
+                                    <option value="">
+                                        Todas
+                                    </option>
+
+                                    <option value="1">
+                                        1+
+                                    </option>
+
+                                    <option value="2">
+                                        2+
+                                    </option>
+
+                                    <option value="3">
+                                        3+
+                                    </option>
+
+                                    <option value="4">
+                                        4+
+                                    </option>
+
+                                    <option value="5">
+                                        5+
+                                    </option>
+
+                                </select>
+
+                            </div>
+
+
+                            <div class="filter-group">
+
+                                <label for="filtro-banos">
+                                    Baños
+                                </label>
+
+                                <select id="filtro-banos">
+
+                                    <option value="">
+                                        Todos
+                                    </option>
+
+                                    <option value="1">
+                                        1+
+                                    </option>
+
+                                    <option value="2">
+                                        2+
+                                    </option>
+
+                                    <option value="3">
+                                        3+
+                                    </option>
+
+                                    <option value="4">
+                                        4+
+                                    </option>
+
+                                </select>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="filter-block">
+
+                        <div class="filter-block-title">
+                            Precio mensual
+                        </div>
+
+
+                        <div class="filter-row">
+
+                            <div class="filter-group">
+
+                                <label for="filtro-precio-minimo">
+                                    Mínimo
+                                </label>
+
+                                <input
+                                    type="number"
+                                    id="filtro-precio-minimo"
+                                    placeholder="$0"
+                                    min="0"
+                                >
+
+                            </div>
+
+
+                            <div class="filter-group">
+
+                                <label for="filtro-precio-maximo">
+                                    Máximo
+                                </label>
+
+                                <input
+                                    type="number"
+                                    id="filtro-precio-maximo"
+                                    placeholder="$0"
+                                    min="0"
+                                >
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="filter-block">
+
+                        <div class="filter-block-title">
+                            Área
+                        </div>
+
+
+                        <div class="filter-row">
+
+                            <div class="filter-group">
+
+                                <label for="filtro-area-minima">
+                                    Mínima
+                                </label>
+
+                                <input
+                                    type="number"
+                                    id="filtro-area-minima"
+                                    placeholder="m²"
+                                    min="0"
+                                >
+
+                            </div>
+
+
+                            <div class="filter-group">
+
+                                <label for="filtro-area-maxima">
+                                    Máxima
+                                </label>
+
+                                <input
+                                    type="number"
+                                    id="filtro-area-maxima"
+                                    placeholder="m²"
+                                    min="0"
+                                >
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="filter-block">
+
+                        <div class="filter-block-title">
+                            Características
+                        </div>
+
+
+                        <div class="filter-group">
+
+                            <label for="filtro-parqueadero">
+                                Parqueadero
+                            </label>
+
+                            <select id="filtro-parqueadero">
+
+                                <option value="">
+                                    Indiferente
+                                </option>
+
+                                <option value="si">
+                                    Sí
+                                </option>
+
+                                <option value="no">
+                                    No
+                                </option>
+
+                            </select>
+
+                        </div>
+
+
+                        <div class="filter-group">
+
+                            <label for="filtro-piscina">
+                                Piscina
+                            </label>
+
+                            <select id="filtro-piscina">
+
+                                <option value="">
+                                    Indiferente
+                                </option>
+
+                                <option value="si">
+                                    Sí
+                                </option>
+
+                                <option value="no">
+                                    No
+                                </option>
+
+                            </select>
+
+                        </div>
+
+
+                        <div class="filter-group">
+
+                            <label for="filtro-balcon">
+                                Balcón
+                            </label>
+
+                            <select id="filtro-balcon">
+
+                                <option value="">
+                                    Indiferente
+                                </option>
+
+                                <option value="si">
+                                    Sí
+                                </option>
+
+                                <option value="no">
+                                    No
+                                </option>
+
+                            </select>
+
+                        </div>
+
+
+                        <div class="filter-group">
+
+                            <label for="filtro-mascotas">
+                                Acepta mascotas
+                            </label>
+
+                            <select id="filtro-mascotas">
+
+                                <option value="">
+                                    Indiferente
+                                </option>
+
+                                <option value="si">
+                                    Sí
+                                </option>
+
+                                <option value="no">
+                                    No
+                                </option>
+
+                            </select>
+
+                        </div>
+
+
+                        <div class="filter-group">
+
+                            <label for="filtro-amoblado">
+                                Amoblado
+                            </label>
+
+                            <select id="filtro-amoblado">
+
+                                <option value="">
+                                    Indiferente
+                                </option>
+
+                                <option value="si">
+                                    Sí
+                                </option>
+
+                                <option value="no">
+                                    No
+                                </option>
+
+                            </select>
+
+                        </div>
+
+                    </div>
+
+                </aside>
+
+
+                <!-- ==================================
+                     RESULTADOS
+                =================================== -->
+
+                <section class="results-section">
+
+                    <div class="results-header">
+
+                        <div>
+
+                            <span class="section-kicker">
+                                RESULTADOS
+                            </span>
+
+                            <h2>
+                                Inmuebles disponibles
+                            </h2>
+
+                            <p class="results-description">
+                                Explora las opciones encontradas
+                                según tus preferencias.
+                            </p>
+
+                        </div>
+
+
+                        <div class="sort-control">
+
+                            <label for="ordenar">
+                                Ordenar por
+                            </label>
+
+                            <select id="ordenar">
+
+                                <option value="">
+                                    Relevancia
+                                </option>
+
+                                <option value="precio-menor">
+                                    Precio: menor a mayor
+                                </option>
+
+                                <option value="precio-mayor">
+                                    Precio: mayor a menor
+                                </option>
+
+                                <option value="area-mayor">
+                                    Área: mayor a menor
+                                </option>
+
+                                <option value="precio-m2-menor">
+                                    Precio/m²: menor a mayor
+                                </option>
+
+                                <option value="recientes">
+                                    Más recientes
+                                </option>
+
+                            </select>
+
+                        </div>
+
+                    </div>
+
+
+                    <div
+                        id="lista-inmuebles"
+                        class="properties-grid"
+                    ></div>
+
+
+                    <nav
+                        id="paginacion"
+                        class="pagination"
+                        aria-label="Paginación de inmuebles"
+                    ></nav>
+
+                </section>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ==========================================
+         FOOTER
+    =========================================== -->
+
+    <footer class="site-footer">
+
+        <div class="container footer-inner">
+
+            <div>
+
+                <strong>
+                    Arriendos Cali
+                </strong>
+
+                <span>
+                    Información inmobiliaria en un solo lugar.
+                </span>
+
+            </div>
+
+            <span>
+                Datos recopilados de fuentes públicas.
+            </span>
+
+        </div>
+
+    </footer>
+
+
+    <script src="app.js"></script>
+
+</body>
+</html>

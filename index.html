@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encontrando el NuviHogar</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        
+        <header class="main-header">
+            <div>
+                <h1>Encontrando el NuviHogar</h1>
+                <p class="status-indicator">Estado: <strong id="estado">Cargando...</strong></p>
+            </div>
+            <button id="btn-ver-favoritos" type="button" aria-pressed="false" aria-label="Filtrar por mis inmuebles favoritos">
+                <svg class="icono-btn-fav" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"></path>
+                </svg>
+                <span id="texto-btn-fav">Mis Favoritos</span>
+            </button>
+        </header>
+
+        <!-- SECCIÓN DIVIDIDA: Filtros a la izquierda, Mapa a la derecha -->
+        <div class="top-section">
+            
+            <!-- MITAD IZQUIERDA: Filtros y Estadísticas -->
+            <div class="filtros-wrapper">
+                <div class="filtros-container">
+                    <select id="filtro-ciudad" aria-label="Filtrar por ciudad"><option value="">Todas las ciudades</option></select>
+                    <select id="filtro-tipo" aria-label="Filtrar por tipo de inmueble"><option value="">Todos los tipos</option></select>
+                    <input type="number" id="filtro-precio-minimo" placeholder="Precio mín ($)" aria-label="Precio mínimo">
+                    <input type="number" id="filtro-precio-maximo" placeholder="Precio máx ($)" aria-label="Precio máximo">
+                    <input type="number" id="filtro-habitaciones" placeholder="Habitaciones mín." aria-label="Mínimo de habitaciones">
+                    <input type="number" id="filtro-banos" placeholder="Baños mín." aria-label="Mínimo de baños">
+                    <select id="filtro-parqueadero" aria-label="Filtrar si incluye parqueadero">
+                        <option value="">¿Parqueadero?</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+                    <select id="filtro-mascotas" aria-label="Filtrar si acepta mascotas">
+                        <option value="">¿Mascotas?</option>
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+                    
+                    <!-- SELECTOR DE ORDENAR POR -->
+                    <select id="ordenar" aria-label="Ordenar resultados">
+                        <option value="relevancia">Ordenar por: Relevancia</option>
+                        <option value="precio-menor">Precio: Menor a Mayor</option>
+                        <option value="precio-mayor">Precio: Mayor a Menor</option>
+                        <option value="area-mayor">Área: Mayor a Menor</option>
+                    </select>
+                    
+                    <!-- BOTÓN LIMPIAR -->
+                    <button id="limpiar-filtros" type="button">Limpiar Filtros</button>
+                </div>
+
+                <div class="estadisticas-box" aria-live="polite">
+                    <div><strong>Resultados:</strong> <span id="estadistica-cantidad">0</span></div>
+                    <div><strong>Promedio:</strong> <span id="estadistica-promedio">$0</span></div>
+                    <div><strong>Más barato:</strong> <span id="estadistica-minimo">$0</span></div>
+                    <div><strong>Más caro:</strong> <span id="estadistica-maximo">$0</span></div>
+                </div>
+            </div>
+
+            <!-- MITAD DERECHA: Mapa -->
+            <div class="mapa-wrapper">
+                <div id="mapa-inmuebles"></div>
+                <div class="leyenda-colores">
+                    <div class="leyenda-item"><span style="background-color: #2ecc71;"></span> Ganga</div>
+                    <div class="leyenda-item"><span style="background-color: #f39c12;"></span> Normal</div>
+                    <div class="leyenda-item"><span style="background-color: #e74c3c;"></span> Costoso</div>
+                </div>
+            </div>
+
+        </div> <!-- Fin de la sección dividida -->
+
+        <!-- TARJETAS -->
+        <main id="lista-inmuebles"></main>
+        
+        <!-- PAGINACIÓN -->
+        <div id="paginacion"></div>
+
+    </div>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
